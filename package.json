@@ -1,0 +1,511 @@
+{
+    "author": "gtrombi@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "approx",
+    "pebble": {
+        "capabilities": [
+            "configurable"
+        ],
+        "displayName": "Approssimazione",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/tergiversare",
+                    "name": "tergiversare",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ce_la_fai",
+                    "name": "ce_la_fai",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/dai_che",
+                    "name": "dai_che",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/caffeino_pi",
+                    "name": "caffeino_pi",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/caffeino",
+                    "name": "caffeino",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/birretta_pi",
+                    "name": "birretta_pi",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/perso",
+                    "name": "perso",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/infilato",
+                    "name": "infilato",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/mollato",
+                    "name": "mollato",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/lasciato",
+                    "name": "lasciato",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/dove_lo_hai",
+                    "name": "dove_lo_hai",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/cellulare",
+                    "name": "cellulare",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ferie",
+                    "name": "ferie",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/rimpiangere",
+                    "name": "rimpiangere",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/a_quest_ora",
+                    "name": "a_quest_ora",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ora_di_ieri",
+                    "name": "ora_di_ieri",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/birretta",
+                    "name": "birretta",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/farsi",
+                    "name": "farsi",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/ora_di",
+                    "name": "ora_di",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/fra_poco",
+                    "name": "fra_poco",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_qualcosa",
+                    "name": "e_qualcosa",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/sono_tipo",
+                    "name": "sono_tipo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/secondo_me",
+                    "name": "secondo_me",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/credo_siano",
+                    "name": "credo_siano",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/saranno",
+                    "name": "saranno",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/amore",
+                    "name": "amore",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/dormi",
+                    "name": "dormi",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/notte",
+                    "name": "notte",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/piu_o_meno",
+                    "name": "piu_o_meno",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/tipo",
+                    "name": "tipo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/menu_icon",
+                    "menuIcon": true,
+                    "name": "menu_icon",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/nera",
+                    "name": "nera",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/venti",
+                    "name": "venti",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/un_quarto",
+                    "name": "un_quarto",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/tre_quarti",
+                    "name": "tre_quarti",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/quasi",
+                    "name": "quasi",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/quaranta",
+                    "name": "quaranta",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/qualcosa",
+                    "name": "qualcosa",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/poco_dopo",
+                    "name": "poco_dopo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/passate",
+                    "name": "passate",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/mezzo",
+                    "name": "mezzo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/mezza",
+                    "name": "mezza",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/meno_venti",
+                    "name": "meno_venti",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/meno_dieci",
+                    "name": "meno_dieci",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/meno",
+                    "name": "meno",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_9",
+                    "name": "le_h_9",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_8",
+                    "name": "le_h_8",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_7",
+                    "name": "le_h_7",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_6",
+                    "name": "le_h_6",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_5",
+                    "name": "le_h_5",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_4",
+                    "name": "le_h_4",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_3",
+                    "name": "le_h_3",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_2",
+                    "name": "le_h_2",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_12",
+                    "name": "le_h_12",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_11",
+                    "name": "le_h_11",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_10",
+                    "name": "le_h_10",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/le_h_1",
+                    "name": "le_h_1",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_9",
+                    "name": "h_9",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_8",
+                    "name": "h_8",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_7",
+                    "name": "h_7",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_6",
+                    "name": "h_6",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_5",
+                    "name": "h_5",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_4",
+                    "name": "h_4",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_3",
+                    "name": "h_3",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_2",
+                    "name": "h_2",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_12",
+                    "name": "h_12",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_11",
+                    "name": "h_11",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_10",
+                    "name": "h_10",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/h_1",
+                    "name": "h_1",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_venti",
+                    "name": "e_venti",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_un_quarto",
+                    "name": "e_un_quarto",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_tre_quarti",
+                    "name": "e_tre_quarti",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_quaranta",
+                    "name": "e_quaranta",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_mezzo",
+                    "name": "e_mezzo",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_mezza",
+                    "name": "e_mezza",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e_dieci",
+                    "name": "e_dieci",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/e",
+                    "name": "e",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/da_poco",
+                    "name": "da_poco",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/circa",
+                    "name": "circa",
+                    "targetPlatforms": null,
+                    "type": "png"
+                },
+                {
+                    "file": "images/alle",
+                    "name": "alle",
+                    "targetPlatforms": null,
+                    "type": "png"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "diorite"
+        ],
+        "uuid": "0365de40-09a9-4273-9e4b-b9b81f37b870",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "2.35.0"
+}
